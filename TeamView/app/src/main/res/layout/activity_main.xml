@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.isaacenlow.my_application.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/sports"
+        android:id="@+id/imageView"
+        android:layout_marginTop="370dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:foreground="@color/common_google_signin_btn_text_dark_disabled"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="35dp" />
+
+    <Spinner
+        android:id="@+id/sports_spinner"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:textAlignment="center"
+        style="@android:style/Widget.Material.Spinner"
+        android:foreground="@color/common_google_signin_btn_text_dark_disabled"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="35dp" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Search"
+        android:onClick="sendMessage"
+        android:id="@+id/searchButton"
+        android:layout_width="150dp"
+        android:layout_marginBottom="330dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <TextView
+        android:text="Select A Sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectSportView"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:text="Select A Team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectTeamView"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="10dp" />
+
+</android.support.design.widget.CoordinatorLayout>

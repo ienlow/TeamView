@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="results">
+        <item>Arizona Cardinals, Sharkies</item>
+        <item>Atlanta Falcons</item>
+    </string-array>
+</resources>

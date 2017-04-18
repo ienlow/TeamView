@@ -1,0 +1,7 @@
+#Wed Nov 30 00:08:50 EST 2016
+base.0=C\:\\Users\\Khalil\\AndroidStudioProjects\\TeamView\\TeamView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d523f0246863347fa388f4610145287b43da2c5b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Khalil\\AndroidStudioProjects\\TeamView\\TeamView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a44686002065d5421028f23977f681c930c1876a\\classes.dex
+base.1=C\:\\Users\\Khalil\\AndroidStudioProjects\\TeamView\\TeamView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a44686002065d5421028f23977f681c930c1876a
+file.0=C\:\\Users\\Khalil\\AndroidStudioProjects\\TeamView\\TeamView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d523f0246863347fa388f4610145287b43da2c5b\\classes.dex
